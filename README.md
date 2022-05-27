@@ -22,3 +22,7 @@
 **Инструкция**
 
 * Инструкция по использованию проекта и системные требования: Открыть файл index.html с использованием браузера Chrome/FireFox/Yandex Browser.
+
+**ССылка на проект**
+
+* https://katsuroalex.github.io/russian-travel/
