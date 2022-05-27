@@ -1,0 +1,23 @@
+.places__website-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+    color: #FFFFFF;
+    text-decoration-line: underline;
+    margin-top: 9px;
+    opacity: 1;
+    transition: 2s linear;
+  }
+    
+  @media (max-width: 320px) {
+    .places__website-link {
+      margin-top: 0;
+      padding-top: 12px;
+    }
+  }
+    
+  .places__website-link:hover {
+    opacity: 0.8;
+  }
