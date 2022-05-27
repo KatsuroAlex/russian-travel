@@ -1,0 +1,14 @@
+.places__image {
+  grid-area: image;
+  max-width: 460px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-sizing: border-box;
+}
+  
+@media (max-width: 320px) {
+  .places__image {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,24 @@
+.places__block {
+  grid-area: paragraph;
+  max-width: 484px;
+  box-sizing: border-box;
+}
+  
+@media (max-width: 1024px) {
+  .places__block {
+    max-width: 456px;
+  }
+}
+  
+@media (max-width: 768px) {
+  .places__block {
+    max-width: 352px;
+  }
+}
+  
+@media (max-width: 320px) {
+  .places__block {
+    padding-left: 16px;
+    padding-right: 30px;
+  }
+}
