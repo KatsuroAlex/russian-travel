@@ -11,20 +11,21 @@
   overflow: hidden;
   color: #fff;
   text-decoration: none;
+  margin: 0 auto;
 }
   
 @media (max-width: 1024px) {
   .cover__link {
+    max-width: 1024px;
+    min-height: 640px;
     padding-left: 0;
     padding-right: 0;
-    min-height: 640px;
   }
 }
   
 @media (max-width: 768px) {
   .cover__link {
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 768px;
     min-height: 480px;
   }
 }

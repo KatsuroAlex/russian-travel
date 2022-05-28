@@ -10,6 +10,11 @@
   margin: 0 0 32px 0;
 }
 
+@media (max-width: 706px) {
+  .cover__title {
+    font-size: 65px;
+  }
+}
 
 @media (max-width: 320px) {
     .cover__title {
@@ -19,6 +24,5 @@
       padding: 2px 38px 16px 35px;
       min-height: 70px;
       margin-bottom: 0;
-
     }
 }

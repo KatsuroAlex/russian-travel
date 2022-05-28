@@ -3,14 +3,26 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 111%;
+    line-height: 122%;
     color: #FFFFFF;
     text-decoration-line: underline;
-    margin-top: 9px;
+    margin-top: 12px;
     opacity: 1;
     transition: 2s linear;
   }
     
+  @media (max-width: 1024px) {
+    .places__website-link {
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .places__website-link {
+      margin-top: 14px;
+    }
+  }
+
   @media (max-width: 320px) {
     .places__website-link {
       margin-top: 0;

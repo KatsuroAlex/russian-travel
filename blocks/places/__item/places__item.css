@@ -11,7 +11,7 @@
 @media (max-width: 1024px) {
   .places__item {
     grid-template-columns: 440px 1fr;
-    grid-gap: 48px 32px;
+    grid-gap: 48px 32px; 
   }
 }
   
@@ -22,14 +22,26 @@
   }
 }
   
-@media (max-width: 320px) {
+@media (max-width: 706px) {
   .places__item {
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "url"
       "image"
       "paragraph";
-    row-gap: 32px;
+      grid-gap: 32px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "url"
+      "image"
+      "paragraph";
+      grid-gap: 32px 0;
   }
 }

@@ -7,6 +7,20 @@
   list-style: none;
 }
   
+@media (max-width: 768px) {
+  .footer__list {
+    padding: 1px 0 0 2px;
+  }
+}
+
+@media (max-width: 706px) {
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer__list {
     display: flex;

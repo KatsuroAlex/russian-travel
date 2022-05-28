@@ -1,20 +1,33 @@
 .places__list {
+  max-width: 984px;
   display: grid;
-  margin-top: 0;
   list-style: none;
   row-gap: 80px;
   padding-left: 0;
-  margin-bottom: 0;
+  margin: 0 0;
 }
   
+@media (max-width: 1024px) {
+  .places__list {
+    max-width: 928px;
+    row-gap: 81px;
+  }
+}
+
 @media (max-width: 768px) {
   .places__list {
     row-gap: 72px;
   }
 }
   
+@media (max-width: 706px) {
+  .places__list {
+    row-gap: 48px;
+  }
+}
+
 @media (max-width: 320px) {
   .places__list {
-    row-gap: 50px;
+    row-gap: 48px;
   }
 }

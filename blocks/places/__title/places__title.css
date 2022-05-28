@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 106%;
+  line-height: 105%;
   text-align: start;
   color: #FFFFFF;
   box-sizing: border-box;
@@ -14,11 +14,11 @@
   position: relative;
   align-items: flex-end;
 }
-  
+
 @media (max-width: 768px) {
   .places__title {
     font-size: 42px;
-    line-height: 106%;
+    line-height: 110%;
     flex-wrap: wrap;
     padding-right: 10px;
   }
@@ -28,6 +28,6 @@
   .places__title {
     font-size: 32px;
     line-height: 109%;
-    padding: 0 16px;
+    padding: 0 17px;
   }
 }
