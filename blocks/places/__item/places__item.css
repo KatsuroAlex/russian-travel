@@ -22,19 +22,7 @@
   }
 }
   
-@media (max-width: 706px) {
-  .places__item {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "url"
-      "image"
-      "paragraph";
-      grid-gap: 32px 0;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 710px) {
   .places__item {
     grid-template-columns: 1fr;
     grid-template-areas:

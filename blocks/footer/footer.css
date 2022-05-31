@@ -3,6 +3,10 @@
   min-height: 18px;
   margin: 0 auto;
   padding: 92px 48px 24px 48px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
 }
   
 @media (max-width: 1024px) {
@@ -20,20 +24,19 @@
   }
 }
   
-@media (max-width: 706px) {
+@media (max-width: 710px) {
   .footer {
+    flex-direction: column;
     max-width: 186px;
-    min-height: 310px;
     padding: 64px 118px 24px 16px;
   }
 }
 
 @media (max-width: 320px) {
   .footer {
-    max-width: 186px;
+    max-width: 200px;
+    padding: 64px 110px 24px 16px;
     min-height: 310px;
-    padding: 64px 118px 24px 16px;
   }
 }
-
 

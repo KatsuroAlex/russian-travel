@@ -4,7 +4,7 @@
   padding: 0 100px;
   margin: 0 auto 94px auto;
   list-style: none;
-  font-family: 'Inter', Arial;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   flex-wrap: wrap;
 }
   
@@ -24,18 +24,9 @@
   }
 }
   
-@media (max-width: 706px) {
+@media (max-width: 710px) {
   .places {
     max-width: 320px;
-    padding: 0 0;
-    margin: 0 auto 64px auto;
-  }
-}
-
-@media (max-width: 320px) {
-  .places {
-    max-width: 320px;
-    padding: 0 0;
-    margin: 0 auto 64px auto;
+    margin: 0 auto 39px auto;
   }
 }

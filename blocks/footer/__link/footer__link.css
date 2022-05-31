@@ -1,5 +1,5 @@
 .footer__link {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -12,14 +12,15 @@
   transition: 2s linear;
 }
   
-@media (max-width: 320px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 100%;
-    row-gap: 32px;
-  }
-}
-
 .footer__link:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 710px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
+
+

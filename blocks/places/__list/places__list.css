@@ -20,13 +20,7 @@
   }
 }
   
-@media (max-width: 706px) {
-  .places__list {
-    row-gap: 48px;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 710px) {
   .places__list {
     row-gap: 48px;
   }

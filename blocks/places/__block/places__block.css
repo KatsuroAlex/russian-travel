@@ -3,7 +3,7 @@
   max-width: 484px;
   box-sizing: border-box;
 }
-  
+
 @media (max-width: 768px) {
   .places__block {
     max-width: 352px;
