@@ -26,7 +26,7 @@
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__paragraph/intro__paragraph.css');
-@import url('../blocks/intro/__paragraph/_font/intro__paragraph_font.css');
+@import url('../blocks/intro/__paragraph-font/intro__paragraph-font.css');
 
 
 /* PHOTO-GRID */
